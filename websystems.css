@@ -1,0 +1,280 @@
+/* HEADER */
+.header {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  font-size: xx-large;
+  font-family: monospace;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+body {
+  /*max-width: 1024px;
+  max-height: 768px; causing issues to position: sticky*/
+  top: 50%;
+  left: 50%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(194, 194, 194);
+}
+
+
+/* NAVI BAR CSS */
+[class^="far fa-check-square"], [class*="far fa-check-square"] {
+  display: inline-block;
+  width: 100%;
+}
+
+.menu-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+.menu-4 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #333;
+}
+.menu-4 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu-4 a {
+  padding: 0.3em 0;
+  color: white;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #333;
+  font-family: monospace;
+  font-size: x-large;
+}
+.menu-4 a:before,
+.menu-4 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+.menu-4 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.menu-4 li:hover a,
+.menu-4 .current a {
+  transform: translateY(100%);
+}
+
+.navi {
+  overflow: hidden;
+  background-color: #333;
+  font-family: monospace;
+  font-size: x-large;
+  position: sticky;
+  top: 0;
+}
+.navi a {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  float: left;
+  text-decoration: none;
+  font-size: x-large;
+}
+.navi a:hover {
+  background-color: black;
+}
+
+div.line {
+  border-top: 3px solid grey;
+}
+
+div.line2 {
+  border-top: 3px dashed grey;
+}
+/* MAIN */
+
+h2 {
+  color: black;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: underline
+}
+
+h3 {
+  color: black;
+  text-align: left;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 14px;
+}
+
+h4 {
+  color: black;
+  text-align: left;
+  font-family: Arial;
+  font-style: italic;
+  padding: 14px;
+}
+
+p {
+  text-align: left;
+  margin-left: 14px;
+  font-family: Arial;
+}
+
+.italics {
+  text-align: left;
+  margin-left: 14px;
+  font-family: Arial;
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+  font-family: Arial;
+}
+
+li {
+  font-family: Arial;
+}
+
+pre {
+  font-family: Arial;
+}
+
+span {
+  text-align: center;
+  font-family: Arial;
+  margin-left: 14px;
+}
+
+.spantext {
+  font-family: Arial;
+  text-align: center;
+  margin-left: 14px;
+  font-style: italic;
+}
+
+/* IMAGE SETTINGS */
+.image {
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
+
+.image2 {
+  width: auto;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: right;
+  padding: 10px 10px;
+}
+
+.image3 {
+  width: auto;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: right;
+  padding: 10px 10px;
+}
+
+.image4 {
+  width: auto;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: right;
+  padding: 20px 20px;
+}
+
+.image5 {
+  width: auto;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: left;
+  padding: 20px 20px;
+}
+
+/* TABLE SETTINGS */
+.tabcenter {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+}
+
+.tabmain {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(180, 180, 180);
+}
+
+/* FOOTER */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: x-small;
+  font-family: Arial;
+  padding: 10px 10px;
+}
+
+#imagefoot {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.newline {
+  padding-top: 16px;
+}
