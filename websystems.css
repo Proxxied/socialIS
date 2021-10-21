@@ -121,6 +121,18 @@ div.line2 {
 }
 /* MAIN */
 
+.title {
+  color: black;
+  text-align: left;
+  display: block;
+  padding: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: x-large;
+  text-align: center;
+}
+
 h2 {
   color: black;
   text-align: left;
@@ -151,7 +163,7 @@ h4 {
 
 p {
   text-align: left;
-  margin-left: 14px;
+  margin-left: auto;
   font-family: Arial;
 }
 
@@ -165,6 +177,12 @@ p {
 .center {
   text-align: center;
   font-family: Arial;
+}
+
+.border {
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 li {
@@ -220,12 +238,12 @@ span {
 
 .image4 {
   width: auto;
-  max-height: 400px;
-  margin-left: auto;
+  max-height: 50px;
+  margin-left: 20px;
   margin-right: auto;
   display: block;
-  float: right;
-  padding: 20px 20px;
+  float: none;
+  padding: 10px 10px;
 }
 
 .image5 {
@@ -236,6 +254,16 @@ span {
   display: block;
   float: left;
   padding: 20px 20px;
+}
+
+.icon {
+  width: auto;
+  max-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+  padding: 10px 10px;
 }
 
 /* TABLE SETTINGS */
@@ -251,6 +279,59 @@ span {
   font-family: Arial;
   width: auto;
   padding: 50px;
+}
+
+.tabpain {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  width: 600px;
+}
+
+.tabsain {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  width: auto;
+}
+
+.tabmainborder {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  width: auto;
+  padding: 50px;
+  border-style: outset;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+  background-color: lightblue;
+}
+
+input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+  background-color: lightblue;
 }
 
 td, th {
