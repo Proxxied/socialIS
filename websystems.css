@@ -272,6 +272,16 @@ span {
   padding: 20px 20px;
 }
 
+.image6 {
+  width: auto;
+  max-height: 50px;
+  margin-left: auto;
+  margin-right: 20px;
+  display: block;
+  float: none;
+  padding: 10px 10px;
+}
+
 .icon {
   width: auto;
   max-height: 50px;
