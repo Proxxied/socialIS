@@ -10,6 +10,10 @@
   text-shadow: 2px 2px 2px black;
 }
 
+hr.solid {
+  border-top: 3px solid black;
+  border-radius: 5px;
+}
 
 body {
   /*max-width: 1024px;
@@ -179,9 +183,21 @@ p {
   font-family: Arial;
 }
 
+.left {
+  text-align: left;
+  font-family: Arial;
+  margin-left: 10px;
+}
+
 .border {
   border: 2px solid black;
   border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.border2 {
+  border: 2px solid black;
+  border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -251,8 +267,8 @@ span {
   max-height: 300px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  float: left;
+  display: inline;
+  float: none;
   padding: 20px 20px;
 }
 
@@ -293,6 +309,12 @@ span {
   margin-right: auto;
   font-family: Arial;
   width: auto;
+}
+
+.tabgain {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
 }
 
 .tabmainborder {
