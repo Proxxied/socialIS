@@ -315,6 +315,8 @@ span {
   margin-left: auto;
   margin-right: auto;
   font-family: Arial;
+  max-height: 100px;
+  width: auto;
 }
 
 .tabmainborder {
